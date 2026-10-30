@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MOR VISION</title>
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;
+ background:#080808;
+ color:white;
+ font-family:Arial,sans-serif;
+ text-align:center;
+}
+header{
+ padding:28px 15px;
+ border-bottom:1px solid #333;
+ letter-spacing:5px;
+ font-size:25px;
+ font-weight:bold;
+}
+.hero{padding:65px 20px 45px}
+.hero h1{font-size:35px;letter-spacing:3px}
+.hero p{color:#aaa;line-height:2}
+h2{letter-spacing:3px;margin-top:40px}
+.grid{
+ display:grid;
+ grid-template-columns:1fr 1fr;
+ gap:12px;
+ padding:20px;
+}
+.card{
+ border:1px solid #444;
+ padding:28px 10px;
+ background:#111;
+}
+.card h3{letter-spacing:2px}
+.card p{color:#999;font-size:13px}
+footer{
+ border-top:1px solid #333;
+ padding:25px;
+ color:#888;
+ font-size:12px;
+}
+button{
+ background:white;
+ color:black;
+ border:0;
+ padding:12px 25px;
+ font-weight:bold;
+}
+</style>
+</head>
+<body>
+<header>MOR VISION</header>
+
+<section class="hero">
+<h1>BEYOND THE VISION.</h1>
+<p>أهلاً بكم في عالم مور فيجن<br>
+A NEW ERA OF ENTERTAINMENT</p>
+</section>
+
+<h2>OUR WORLD</h2>
+
+<div class="grid">
+<div class="card">
+<h3>ARTISTS</h3>
+<p>Our Talents</p>
+</div>
+<div class="card">
+<h3>LONGSHOT</h3>
+<p>Our Artists</p>
+</div>
+<div class="card">
+<h3>NEWS</h3>
+<p>Latest Updates</p>
+</div>
+<div class="card">
+<h3>MUSIC</h3>
+<p>Music Releases</p>
+</div>
+<div class="card">
+<h3>EVENTS</h3>
+<p>Upcoming Events</p>
+</div>
+<div class="card">
+<h3>ABOUT US</h3>
+<p>Our Company</p>
+</div>
+</div>
+
+<footer>
+© 2026 MOR VISION. ALL RIGHTS RESERVED.
+</footer>
+</body>
+</html>
